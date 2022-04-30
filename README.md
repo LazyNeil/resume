@@ -14,10 +14,10 @@
 <details>
   <summary>Carlos Slim Fundation Certificates</summary>
 
-![finder](finder.png)
+![finder](assets/finder.png)
 
-![Administrador de bases de datos](administrador_de_bases_de_datos.png)
+![Administrador de bases de datos](assets/administrador_de_bases_de_datos.png)
 
-![Tecnico en informatica](tecnico_en_informatica.png)
+![Tecnico en informatica](assets/tecnico_en_informatica.png)
 
 </details>
