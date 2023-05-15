@@ -1,7 +1,10 @@
 # Certificates
 
+Este CV está hecho con LaTeX, puedes previsualizarlo en [overleaf](https://www.overleaf.com/read/sfbqtdjhgywk) o compilarlo tú mismo.
 <details>
   <summary>FreeCodeCamp Certificates</summary>
+
+
 
 [FrontEnd development libraries](https://www.freecodecamp.org/certification/lazyneil/front-end-development-libraries)
 
