@@ -1,0 +1,115 @@
+\documentclass[10pt,a4paper]{altacv}
+\usepackage[default]{lato}
+\usepackage{paracol}
+\usepackage{censor}
+\usepackage{xstring}
+\input{config.tex}
+
+\definecolor{Navy}{HTML}{000080}
+\definecolor{SlateGray}{HTML}{2E2E2E}
+\definecolor{LightGray}{HTML}{666666}
+\colorlet{heading}{Navy}
+\colorlet{accent}{Navy}
+\colorlet{emphasis}{SlateGray}
+\colorlet{body}{LightGray}
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm}
+
+\begin{document}
+
+\name{Jhonatan Jamir Abdala}
+\tagline{Full Stack Ssr \& Técnico informático}
+\photo{2.8cm}{image}
+\personalinfo{%
+    \email{jhonatan.jamir.abdala@gmail.com}
+    \phone{\censoredIfEmpty{\privatePhone}}
+    \linkedin{jonathan-carol}
+    \location{\censoredIfEmpty{\privateAdress}}
+}
+\makecvheader
+\begin{paracol}{2}
+    \columnratio{0.6}
+
+    \cvsection{Experiencia}
+    \cvevent{Desarrollador Freelancer}{Freelance}{Oct 2021 -- Presente}{Alta Córdoba}
+    \begin{itemize}
+        \item Desarrollo de web apps.
+        \item Tecnologías utilizadas: NodeJS, Firebase, React, Laravel.
+    \end{itemize}
+    \divider
+    \cvevent{Técnico de servicio}{Zener}{Dic 2020 -- Nov 2021 }{Beltrán}
+    \divider
+    \cvevent{Técnico de servicio}{Servifull}{Sep 2018 -- Ene 2020}{Santiago Del Estero}
+    \divider
+    \cvevent{Técnico a domicilio}{Autónomo}{Mar 2012 -- Ene 2018}{Santiago Del Estero}
+
+
+    \cvsection{Proyectos}
+    \cvevent{Reproductor de música}{Proyecto personal}{Nov 2022}{}
+    \begin{itemize}
+        \item Tecnologías utilizadas: NodeJS, React, RestAPI y socket.io
+    \end{itemize}
+    \divider
+    \cvevent{Generador de Layouts}{Startup}{Ene 2023}{}
+    \begin{itemize}
+        \item Startup en proceso orientado a la maquetación de páginas web estáticas.
+        \item Tecnologías utilizadas: NodeJS, React, Firebase y Express.
+    \end{itemize}
+    \divider
+
+    \switchcolumn
+
+    \cvsection{Educación}
+    \cvevent{Lic. Sistemas de información.}{UNSE}{ Feb 2017 -- Jun 2019}{}
+    \cvevent{Perito Comercial Especializado en Técnicas Bancarias e Impositivas.}{María Eva Duarte De Perón}{ Mar 2011 -- Nov 2014 \hspace{1 cm}}{}
+
+    \cvsection{Conocimientos}
+    \cvtag{Javascript}
+    \cvtag{PHP}
+    \cvtag{CSS}
+    \cvtag{HTML}
+    \cvtag{Laravel}
+
+    \cvtag{NodeJS}
+    \cvtag{GIT}
+    \cvtag{VIM}
+    \cvtag{React}
+    \cvtag{Redux}
+    \cvtag{Godot}
+
+    \cvtag{MySQL}
+    \cvtag{MongoDB}
+    \cvtag{Linux}
+    \cvtag{Bash}
+    \cvtag{Unity}
+    \cvtag{Microsoft Office}
+    \cvtag{Redes}
+    \cvtag{Hardware}
+    
+
+    \cvsection{Aptitudes}
+    \begin{itemize}
+        \item Resolución de problemas
+        \item Capacidad de adaptación
+        \item Proactividad
+    \end{itemize}
+
+    \cvsection{Cursos}
+    \begin{itemize}
+        \item Responsive Web Design
+        \item JavaScript Algorithms and Data Structures
+        \item Front End Development Libraries
+        \item Administrador de bases de datos
+        \item Técnico informático
+        \item PCAP: Programming Essentials in Python
+        \item Finder
+        \item Argentina Programa 4.0
+    \end{itemize}
+
+    \cvsection{Idiomas}
+
+    \begin{itemize}
+        \item Inglés \cvtag{B2}
+        \item Ruso  \cvtag{A2}
+    \end{itemize}
+\end{paracol}
+\end{document}

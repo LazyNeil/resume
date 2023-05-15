@@ -1,0 +1,8 @@
+{
+    "latex-workshop.synctex.afterBuild.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.hover.preview.enabled": true,
+    "latex-workshop.view.pdf.zoom": "page-width",
+    "latex-workshop.docker.image.latex": "texlive/texlive:latest",
+}
