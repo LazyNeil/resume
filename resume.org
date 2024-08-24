@@ -38,7 +38,7 @@
   \personalinfo{%
    \email{jhonatan.jamir.abdala@gmail.com}
    \phone{\censoredIfEmpty{\privatePhone}}
-   \linkedin{jonathan-carol}
+   \linkedin{jhonatan-abdala}
    \location{\censoredIfEmpty{\privateAdress}}
   }
   \makecvheader
@@ -109,13 +109,13 @@
 
     \cvsection{Cursos}
     \begin{itemize}
+    \item Foundational C\# with Microsoft
     \item Responsive Web Design
     \item JavaScript Algorithms and Data Structures
     \item Front End Development Libraries
     \item Administrador de bases de datos
     \item Técnico informático
     \item PCAP: Programming Essentials in Python
-    \item Finder
     \item Argentina Programa 4.0
     \end{itemize}
 
